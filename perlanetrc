@@ -2,7 +2,7 @@ title: pl6anet
 description: Perl 6 RSS Feeds
 url: http://pl6anet.org/
 author:
-  name: Roman Baumer (Freenode: rba \#perl6 or \#\#perl6-infra)
+  name: Roman Baumer (Freenode: rba)
   email: 
 entries: 50
 opml: /home/pl6anet.org/pl6anet.org/opml.xml
