@@ -5,10 +5,10 @@ author:
   name: rba (Freenode: rba)
   email: #perl6 or ##perl6-infra
 entries: 50
-opml: /home/pl6anet.org/perlanet/opml.xml
-cache_dir: /home/pl6anet.org/perlanet/cache
+opml: /home/pl6anet.org/pl6anet.org/opml.xml
+cache_dir: /home/pl6anet.org/pl6anet.org/cache
 page:
-  file: /home/pl6anet.org/perlanet/index.html
+  file: /home/pl6anet.org/pl6anet.org/index.html
   template: index.tt
 feed:
   file: atom.xml
