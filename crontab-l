@@ -1,1 +1,1 @@
-#19 * * * * (cd /home/pl6anet.org/pl6anet.org && perlanet /home/pl6anet.org/pl6anet.org/perlanetrc > /home/pl6anet.org/perlanet.log && cp /home/pl6anet.org/pl6anet.org/index.html /var/www/pl6anet.org && cp /home/pl6anet.org/pl6anet.org/atom.xml /var/www/pl6anet.org )
+#19 * * * * (cd /home/pl6anet.org/pl6anet.org && perlanet /home/pl6anet.org/pl6anet.org/perlanetrc > /home/pl6anet.org/perlanet.log 2>&1 && cp /home/pl6anet.org/pl6anet.org/index.html /var/www/pl6anet.org && cp /home/pl6anet.org/pl6anet.org/atom.xml /var/www/pl6anet.org )
