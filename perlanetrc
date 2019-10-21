@@ -98,3 +98,6 @@ feeds:
  -  url: https://medium.com/feed/@jcoterhals/
     title: Jo Christian Oterhals
     web: https://medium.com/@jcoterhals/
+ - url: https://rakudoweekly.blog/feed/
+    title: Rakudo Weekly
+    web: https://rakudoweekly.blog/
