@@ -41,9 +41,9 @@ feeds:
  -  url:  https://p6weekly.wordpress.com/feed/
     title: Weekly changes in and around Perl 6
     web: https://p6weekly.wordpress.com/feed/
- -  url:  https://perl6advent.wordpress.com/feed/
-    title: Perl 6 Advent Calendar
-    web: https://perl6advent.wordpress.com/feed/
+ -  url:  https://rakuadventcalendar.wordpress.com/feed/
+    title: Raku Advent Calendar
+    web: https://rakuadventcalendar.wordpress.com/feed/
  -  url:  https://6guts.wordpress.com/feed/
     title: 6guts
     web: https://6guts.wordpress.com/feed/
