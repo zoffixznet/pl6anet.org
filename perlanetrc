@@ -101,3 +101,6 @@ feeds:
  -  url: https://rakudoweekly.blog/feed/
     title: Rakudo Weekly
     web: https://rakudoweekly.blog/
+ -  url: https://vrurg.github.io/feed.xml
+    title: vrurg
+    web: https://vrurg.github.io/
