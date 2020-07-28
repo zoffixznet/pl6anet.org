@@ -38,9 +38,6 @@ feeds:
  -  url:  http://rakudo.org/feed/
     title: rakudo.org
     web: http://rakudo.org/feed/
- -  url:  https://p6weekly.wordpress.com/feed/
-    title: Weekly changes in and around Perl 6
-    web: https://p6weekly.wordpress.com/feed/
  -  url:  https://rakuadventcalendar.wordpress.com/feed/
     title: Raku Advent Calendar
     web: https://rakuadventcalendar.wordpress.com/feed/
