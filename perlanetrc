@@ -50,9 +50,6 @@ feeds:
  -  url:  http://www.nntp.perl.org/rss/perl.perl6.announce.rdf
     title: perl.perl6.announce
     web: http://www.nntp.perl.org/rss/perl.perl6.announce.rdf
- -  url:  http://strangelyconsistent.org/blog/feed.atom
-    title: Strangely Consistent
-    web: http://strangelyconsistent.org/blog/feed.atom
  -  url: http://stevemynott.blogspot.com/feeds/posts/default
     title: Steve Mynott
     web: http://stevemynott.blogspot.com/feeds/posts/default
