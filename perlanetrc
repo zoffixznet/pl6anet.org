@@ -38,9 +38,9 @@ feeds:
  -  url:  http://rakudo.org/feed/
     title: rakudo.org
     web: http://rakudo.org/feed/
- -  url:  https://rakuadventcalendar.wordpress.com/feed/
+ -  url:  https://raku-advent.blog/feed/
     title: Raku Advent Calendar
-    web: https://rakuadventcalendar.wordpress.com/feed/
+    web: https://raku-advent.blog
  -  url:  https://6guts.wordpress.com/feed/
     title: 6guts
     web: https://6guts.wordpress.com/feed/
