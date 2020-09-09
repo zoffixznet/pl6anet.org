@@ -80,9 +80,9 @@ feeds:
  -  url: https://p6steve.wordpress.com/feed/
     title: p6steve
     web: https://p6steve.wordpress.com/
- -  url: https://perl6.online/feed/
-    title: Perl 6 Inside Out
-    web: https://perl6.online/
+ -  url: https://andrewshitov.com/category/raku-programming-language/feed/
+    title: Andrew Shitov
+    web: https://andrewshitov.com/category/raku-programming-language/
  -  url: https://wakelift.de/rss/
     title: my Timotimo \this
     web: https://wakelift.de/
