@@ -1,7 +1,7 @@
-pl6anet.org
-===========
+planet.raku.org
+===============
 
-Install instructions and config for pl6anet.org
+Install instructions and config for planet.raku.org
 
 On a recentish perl install
 https://metacpan.org/pod/distribution/Perlanet/bin/perlanet
@@ -11,7 +11,7 @@ Select a local data directory and copy all related files in place, eg.
 
 Select a target 'webroot' directory on your server and copy
 200px-Camelia.svg.png and style.css in place.  The latter file was borrowed
-from perl6.org itself :-)
+from raku.org itself :-)
 
 An example webroot on FreeBSD would be /usr/local/www/apache22/data
 
