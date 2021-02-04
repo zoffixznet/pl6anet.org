@@ -4,8 +4,9 @@ This repo provides the links for the Raku news feeds on
 [pl6anet.org](https://pl6anet.org).
 
 Persons who wish to add their favorite Raku blog sites
-to that collection (which is the source for the world-famous
-[Raku Weekly News]() curated and edited by Elizabeth Mattijsen)
+to that collection (the source for the world-famous
+[Raku Weekly News](https://rakudoweekly.blog/blog-feed) 
+which is curated and edited by Elizabeth Mattijsen)
 should use the following instructions. (Please file an
 issue if you have any problems, or ask for help
 on IRC channel \#raku.)
