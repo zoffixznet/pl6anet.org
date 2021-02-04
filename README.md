@@ -1,29 +1,21 @@
-planet.raku.org
-===============
+# planet.raku.org
 
-Install instructions and config for planet.raku.org
+This repo provides the links for the Raku news feeds on
+[pl6anet.org](https://pl6anet.org).
 
-On a recentish perl install
-https://metacpan.org/pod/distribution/Perlanet/bin/perlanet
+Persons who wish to add their favorite Raku blog sites
+to that collection (which is the source for the world-famous
+[Raku Weekly News]() curated and edited by Elizabeth Mattijsen)
+should use the following instructions. (Please file an
+issue if you have any problems, or ask for help
+on IRC channel \#raku.)
 
-Select a local data directory and copy all related files in place, eg.
-/home/steve/perlanet
+Note you can use either the rss or the atom feed format.
 
-Select a target 'webroot' directory on your server and copy
-200px-Camelia.svg.png and style.css in place.  The latter file was borrowed
-from raku.org itself :-)
+Step 1. Fork this repo on Github.
 
-An example webroot on FreeBSD would be /usr/local/www/apache22/data
+Step 2. Add your entry to the **perlanetrc** file.
 
-The config file is perlanetrc and should be modified to refer to your local
-data directory and webroot.
+Step 3. Submit a PR (pull request).
 
-Install crontab job template for a user with write permission to the target
-webroot
 
-$ crontab < crontab-l
-
-Modify all paths in that cron line to local ones and experiment with running
-similar commands from the command line.
-
-When complete uncomment cron.
