@@ -1,29 +1,38 @@
-planet.raku.org
-===============
+# planet.raku.org
 
-Install instructions and config for planet.raku.org
+This repo provides the links for the Raku news feeds on
+[pl6anet.org](https://pl6anet.org).
 
-On a recentish perl install
-https://metacpan.org/pod/distribution/Perlanet/bin/perlanet
+That collection is the source for the world-famous
+[Raku Weekly News](https://rakudoweekly.blog/blog-feed) 
+which is curated and edited by Elizabeth Mattijsen.
 
-Select a local data directory and copy all related files in place, eg.
-/home/steve/perlanet
+Persons who wish to add their favorite Raku blog sites
+to that collection should use the following instructions. (Please file an
+issue if you have any problems, or ask for help
+on IRC channel \#raku.  Note you can use either the rss or the atom feed format.)
 
-Select a target 'webroot' directory on your server and copy
-200px-Camelia.svg.png and style.css in place.  The latter file was borrowed
-from raku.org itself :-)
+1. Fork this repo on Github.
 
-An example webroot on FreeBSD would be /usr/local/www/apache22/data
+2. Add your entry to the **perlanetrc** file.
 
-The config file is perlanetrc and should be modified to refer to your local
-data directory and webroot.
+For example, the following is the entry for the
+[Raku Weekly News](https://rakudoweekly.blog/blog-feed):
 
-Install crontab job template for a user with write permission to the target
-webroot
+~~~
+ -  url: https://rakudoweekly.blog/feed/
+    title: Rakudo Weekly News
+    web: https://rakudoweekly.blog/
+~~~
 
-$ crontab < crontab-l
+The **url** is the path to the file containing the actual atom or rss code. Note the 
+example above probably ends at the implied **index.html**.
 
-Modify all paths in that cron line to local ones and experiment with running
-similar commands from the command line.
+The **title** is what the author wants the viewer of 
+[pl6anet.org](https://pl6anet.org) to see for his or her entry.
 
-When complete uncomment cron.
+The **web** is the link to the home page of the blog being referenced.
+
+3. Submit a PR (pull request).
+
+
